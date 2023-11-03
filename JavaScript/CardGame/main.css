@@ -1,0 +1,32 @@
+.card {
+    display: inline-block;
+    font-size: 36px;
+    text-align: center;
+    position: relative;
+}
+
+.col-3 {
+    height: 25%;
+}
+
+.container {
+    height: 90vh;
+}
+
+.face-down-card {
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: red;
+}
+
+.reload-btn {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 15px;
+    font-size: 16px;
+    margin: 0 auto;
+}
